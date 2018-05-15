@@ -15,6 +15,7 @@
 		52CC5DDE20AAEBB100FA2CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CC5DDD20AAEBB100FA2CF4 /* Assets.xcassets */; };
 		52CC5DE120AAEBB100FA2CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CC5DDF20AAEBB100FA2CF4 /* LaunchScreen.storyboard */; };
 		52CC5DEE20AAED9A00FA2CF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52CC5DED20AAED9A00FA2CF4 /* GoogleService-Info.plist */; };
+		52CC5DF020AAF1AB00FA2CF4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DEF20AAF1AB00FA2CF4 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		52CC5DE020AAEBB100FA2CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52CC5DE220AAEBB100FA2CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52CC5DED20AAED9A00FA2CF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52CC5DEF20AAF1AB00FA2CF4 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		689DC15E16CB3FAE09FB05BF /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C122DCA7C9529D2E0989889D /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 		52CC5DEC20AAEC5300FA2CF4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				52CC5DEF20AAF1AB00FA2CF4 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				52CC5DD920AAEBB000FA2CF4 /* SecondViewController.swift in Sources */,
 				52CC5DD520AAEBB000FA2CF4 /* AppDelegate.swift in Sources */,
 				52CC5DD720AAEBB000FA2CF4 /* FirstViewController.swift in Sources */,
+				52CC5DF020AAF1AB00FA2CF4 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +407,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9ZM7295K6;
 				INFOPLIST_FILE = breakpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.VMdev.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -419,7 +426,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9ZM7295K6;
 				INFOPLIST_FILE = breakpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.VMdev.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
