@@ -20,6 +20,7 @@
 		52CC5DF420AAFA6000FA2CF4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DF320AAFA6000FA2CF4 /* LoginVC.swift */; };
 		52CC5DF620AAFADE00FA2CF4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DF520AAFADE00FA2CF4 /* InsetTextField.swift */; };
 		52CC5DF820AAFD8300FA2CF4 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DF720AAFD8300FA2CF4 /* ShadowView.swift */; };
+		52CC5DFA20AAFEAC00FA2CF4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DF920AAFEAC00FA2CF4 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		52CC5DF320AAFA6000FA2CF4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		52CC5DF520AAFADE00FA2CF4 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		52CC5DF720AAFD8300FA2CF4 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		52CC5DF920AAFEAC00FA2CF4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		689DC15E16CB3FAE09FB05BF /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C122DCA7C9529D2E0989889D /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				52CC5DEF20AAF1AB00FA2CF4 /* DataService.swift */,
+				52CC5DF920AAFEAC00FA2CF4 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				52CC5DF220AAFA5300FA2CF4 /* AuthVC.swift in Sources */,
 				52CC5DD920AAEBB000FA2CF4 /* SecondViewController.swift in Sources */,
 				52CC5DF420AAFA6000FA2CF4 /* LoginVC.swift in Sources */,
+				52CC5DFA20AAFEAC00FA2CF4 /* AuthService.swift in Sources */,
 				52CC5DD520AAEBB000FA2CF4 /* AppDelegate.swift in Sources */,
 				52CC5DF820AAFD8300FA2CF4 /* ShadowView.swift in Sources */,
 				52CC5DD720AAEBB000FA2CF4 /* FirstViewController.swift in Sources */,
