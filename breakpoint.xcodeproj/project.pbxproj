@@ -56,15 +56,55 @@
 		52CC5DD320AAEBB000FA2CF4 /* breakpoint */ = {
 			isa = PBXGroup;
 			children = (
-				52CC5DD420AAEBB000FA2CF4 /* AppDelegate.swift */,
-				52CC5DD620AAEBB000FA2CF4 /* FirstViewController.swift */,
-				52CC5DD820AAEBB000FA2CF4 /* SecondViewController.swift */,
+				52CC5DEC20AAEC5300FA2CF4 /* Services */,
+				52CC5DEB20AAEC2B00FA2CF4 /* Extensions */,
+				52CC5DEA20AAEC1500FA2CF4 /* Model */,
+				52CC5DE920AAEC1100FA2CF4 /* View */,
+				52CC5DE820AAEC0900FA2CF4 /* Controller */,
 				52CC5DDA20AAEBB000FA2CF4 /* Main.storyboard */,
-				52CC5DDD20AAEBB100FA2CF4 /* Assets.xcassets */,
 				52CC5DDF20AAEBB100FA2CF4 /* LaunchScreen.storyboard */,
+				52CC5DDD20AAEBB100FA2CF4 /* Assets.xcassets */,
+				52CC5DD420AAEBB000FA2CF4 /* AppDelegate.swift */,
 				52CC5DE220AAEBB100FA2CF4 /* Info.plist */,
 			);
 			path = breakpoint;
+			sourceTree = "<group>";
+		};
+		52CC5DE820AAEC0900FA2CF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52CC5DD620AAEBB000FA2CF4 /* FirstViewController.swift */,
+				52CC5DD820AAEBB000FA2CF4 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52CC5DE920AAEC1100FA2CF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52CC5DEA20AAEC1500FA2CF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52CC5DEB20AAEC2B00FA2CF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52CC5DEC20AAEC5300FA2CF4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.VMdev.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.VMdev.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
