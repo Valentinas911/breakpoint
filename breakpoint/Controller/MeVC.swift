@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class MeVC: UIViewController {
 
     @IBOutlet weak var userImage: UIImageView!
@@ -22,6 +23,11 @@ class MeVC: UIViewController {
     }
 
     @IBAction func logOutButtonPressed(_ sender: Any) {
+        
+        let authVC = storyboard?.instantiateViewController(withIdentifier: "AuthVC")
+        present(authVC!, animated: true) {
+            AuthService.instance.logOut()
+        }
         
     }
     

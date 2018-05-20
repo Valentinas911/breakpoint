@@ -43,4 +43,12 @@ class AuthService {
         
     }
     
+    func logOut() {
+        do {
+            try Auth.auth().signOut()
+        } catch {
+            debugPrint(error.localizedDescription)
+        }
+    }
+    
 }
