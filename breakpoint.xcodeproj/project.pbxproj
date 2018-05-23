@@ -24,6 +24,7 @@
 		52CC5DF620AAFADE00FA2CF4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DF520AAFADE00FA2CF4 /* InsetTextField.swift */; };
 		52CC5DF820AAFD8300FA2CF4 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DF720AAFD8300FA2CF4 /* ShadowView.swift */; };
 		52CC5DFA20AAFEAC00FA2CF4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DF920AAFEAC00FA2CF4 /* AuthService.swift */; };
+		52D8C57220B5730F009DA138 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8C57120B5730F009DA138 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		52CC5DF520AAFADE00FA2CF4 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		52CC5DF720AAFD8300FA2CF4 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		52CC5DF920AAFEAC00FA2CF4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		52D8C57120B5730F009DA138 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		689DC15E16CB3FAE09FB05BF /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C122DCA7C9529D2E0989889D /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 			children = (
 				52CC5DF520AAFADE00FA2CF4 /* InsetTextField.swift */,
 				52CC5DF720AAFD8300FA2CF4 /* ShadowView.swift */,
+				52D8C57120B5730F009DA138 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52537E6B20B1737700333ECF /* MeVC.swift in Sources */,
+				52D8C57220B5730F009DA138 /* FeedCell.swift in Sources */,
 				52CC5DF220AAFA5300FA2CF4 /* AuthVC.swift in Sources */,
 				52537E6F20B191A200333ECF /* UIView_Extension.swift in Sources */,
 				52CC5DD920AAEBB000FA2CF4 /* GroupsVC.swift in Sources */,
