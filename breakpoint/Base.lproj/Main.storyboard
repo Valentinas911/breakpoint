@@ -288,7 +288,7 @@
                                                 <constraint firstItem="E8f-pk-rC6" firstAttribute="top" secondItem="WIn-vv-fWd" secondAttribute="top" id="zLq-rq-9dL"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.25490196078431371" green="0.27058823529411763" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="emailLabel" destination="E8f-pk-rC6" id="bqs-P9-rzk"/>
                                             <outlet property="postLabel" destination="xxc-mR-UdV" id="jhc-nu-5qw"/>
@@ -311,6 +311,9 @@
                         <viewLayoutGuide key="safeArea" id="MoI-cR-FfA"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Feed" image="feed-tabIcon" selectedImage="feed-tabIcon" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="tableView" destination="kdX-0G-rTr" id="vCG-jQ-RS8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>

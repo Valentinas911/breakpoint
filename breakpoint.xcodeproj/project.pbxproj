@@ -25,6 +25,7 @@
 		52CC5DF820AAFD8300FA2CF4 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DF720AAFD8300FA2CF4 /* ShadowView.swift */; };
 		52CC5DFA20AAFEAC00FA2CF4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC5DF920AAFEAC00FA2CF4 /* AuthService.swift */; };
 		52D8C57220B5730F009DA138 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8C57120B5730F009DA138 /* FeedCell.swift */; };
+		52D8C57420B57467009DA138 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8C57320B57467009DA138 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		52CC5DF720AAFD8300FA2CF4 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		52CC5DF920AAFEAC00FA2CF4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		52D8C57120B5730F009DA138 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		52D8C57320B57467009DA138 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		689DC15E16CB3FAE09FB05BF /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C122DCA7C9529D2E0989889D /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +128,7 @@
 		52CC5DEA20AAEC1500FA2CF4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				52D8C57320B57467009DA138 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				52CC5DD720AAEBB000FA2CF4 /* FeedVC.swift in Sources */,
 				52CC5DF620AAFADE00FA2CF4 /* InsetTextField.swift in Sources */,
 				52CC5DF020AAF1AB00FA2CF4 /* DataService.swift in Sources */,
+				52D8C57420B57467009DA138 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
